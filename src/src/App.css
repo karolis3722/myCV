@@ -1,3 +1,72 @@
 .App {
   text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 5%;
+}
+
+body {
+  background-image: url('./assets/bg1.png');
+}
+
+.Panel {
+  opacity: 0.6;
+  transition: padding 1s;
+  margin: 5px;
+}
+.Panel:hover {
+  padding: 5px;
+}
+
+@keyframes moveProfile {
+  from {margin-left: 0px;}
+  to {margin-left: -16000px;}
+}
+
+.User {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('./assets/profile.jpg');
+  animation-name: moveProfile;
+  animation-duration: 180s;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.right-side {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.Bullets {
+  opacity: 0.6;
+  transition: padding 1s;
+  text-align: left;
+  padding: 10px;
+}
+
+.Bullets:hover {
+  padding: 17px;
+}
+
+.emoji {
+  position: fixed;
+}
+
+.hide {
+  display: none;
 }
