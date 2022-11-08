@@ -2,7 +2,6 @@ import React from 'react';
 import { List } from 'semantic-ui-react';
 
 class Bullets extends React.Component {
-    
 
     render() {
 
@@ -10,9 +9,8 @@ class Bullets extends React.Component {
             "background-color": this.props.color
         }
         const useClasses = "Bullets " + `${this.props.useClass}`
-
         const list = this.props.list;
-        // console.log("mylist",list);
+
         const renderList = () => {
             let listArr = [];
             console.log("list",list)
