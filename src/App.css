@@ -50,6 +50,16 @@ body {
   margin-left: 50%;
 }
 
+@media only screen and (max-width: 800px) {
+  .right-side {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .left-side {
+    width: 100%;
+  }
+}
+
 .bold {
   font-weight: bold;
 }
