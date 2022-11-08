@@ -7,8 +7,6 @@ import { Segment, Container } from 'semantic-ui-react';
 
 function App() {
   const parser = new DOMParser();
-  // const doc3 = ;
-  // console.log(doc3.body.children[0].textContent);
 
   return (
     <div className="App">

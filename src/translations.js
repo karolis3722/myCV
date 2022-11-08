@@ -25,8 +25,8 @@ const texts = {
     job_three: 'Orion innovation; Front-end developer',
     job_three_timeline: 'Dec 2021 - Present',
     job_three_description: '\
-    <li>Developing and maintaining quite complex chrome extension (Callings features) - Javascript, React, Chrome API</li>\
-    <li>Developing and maintaining simple Outlook add-in (internal APIs, Outlook manipulations) - Javascript, React, Office API</li>',
+    <li>Developing and maintaining quite complex chrome extension (Callings features) - Javascript, React, Redux, Chrome API</li>\
+    <li>Developing and maintaining simple Outlook add-in (internal APIs, Outlook manipulations) - Javascript, React, Redux, Office API</li>',
     Github: 'Github',
     Linkedin: 'Linkedin'
 
