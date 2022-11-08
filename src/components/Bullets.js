@@ -7,15 +7,15 @@ class Bullets extends React.Component {
 
         const styles = {
             "background-color": this.props.color
-        }
-        const useClasses = "Bullets " + `${this.props.useClass}`
+        };
+        const useClasses = "Bullets " + `${this.props.useClass}`;
         const list = this.props.list;
 
         const renderList = () => {
             let listArr = [];
             console.log("list",list)
             for (let i = 0; i < list.length; i++) {
-                listArr.push(<li key={i}>{list[i].textContent}</li>)
+                listArr.push(<li key={i}>{list[i].textContent}</li>);
             }
             return listArr;
         }
