@@ -14,6 +14,7 @@ body {
   opacity: 0.6;
   transition: padding 1s;
   margin: 5px;
+  word-wrap: break-word;
 }
 
 .Panel:hover {
@@ -58,6 +59,7 @@ body {
   transition: padding 1s;
   text-align: left;
   padding: 10px;
+  word-wrap: break-word;
 }
 
 .Bullets:hover {
