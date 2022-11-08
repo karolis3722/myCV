@@ -27,6 +27,16 @@ function App() {
             <Segment>
               <Panel label={translations.Phone} color="rgb(246 116 3)" useClass="right-side"/>
             </Segment>
+            <Segment>
+              <a href="https://github.com/karolis3722" target="_blank">
+                <Panel label={translations.Github} color="rgb(29 184 139)" useClass="bold"/>
+              </a>
+            </Segment>
+            <Segment>
+              <a href="https://www.linkedin.com/in/karolis-siaulys-8900b2149/" target="_blank">
+                <Panel label={translations.Linkedin} color="rgb(49 218 28)" useClass="bold"/>
+              </a>
+            </Segment>
             <hr />
             <Segment>
               <Panel label={translations.About} color="rgb(215 57 248)" useClass="bold" />

@@ -22,11 +22,13 @@ const texts = {
     <li>Developing and maintaining python based tools</li>\
     <li>Assist other employees with technical questions. Team work!</li>\
     <li>Hosting training sessions for new joiners</li>',
-    job_three: 'Orion inc; Front-end developer',
+    job_three: 'Orion innovation; Front-end developer',
     job_three_timeline: 'Dec 2021 - Present',
     job_three_description: '\
     <li>Developing and maintaining quite complex chrome extension (Callings features) - Javascript, React, Chrome API</li>\
-    <li>Developing and maintaining simple Outlook add-in (internal APIs, Outlook manipulations) - Javascript, React, Office API</li>'
+    <li>Developing and maintaining simple Outlook add-in (internal APIs, Outlook manipulations) - Javascript, React, Office API</li>',
+    Github: 'Github',
+    Linkedin: 'Linkedin'
 
 
 }

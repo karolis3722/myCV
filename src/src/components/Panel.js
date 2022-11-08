@@ -11,7 +11,7 @@ class Panel extends React.Component {
     const possibleMagics = ["https://www.youtube.com/watch?v=dQw4w9WgXcQ", 
         "https://www.youtube.com/watch?v=6FQsIfE7sZM",
         "https://www.youtube.com/watch?v=0DPZ9b9ZZr4",
-        "https://www.youtube.com/watch?v=eT5IGtWmQ-M" 
+        "https://www.youtube.com/watch?v=eT5IGtWmQ-M"
         ]
     
         const useClasses = "Panel " + `${this.props.useClass}`
