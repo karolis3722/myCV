@@ -22,7 +22,7 @@ const texts = {
     <li>Developing and maintaining python based tools</li>\
     <li>Assist other employees with technical questions. Team work!</li>\
     <li>Hosting training sessions for new joiners</li>',
-    job_three: 'Orion innovation; Front-end developer',
+    job_three: 'Orion innovation, Front-end developer',
     job_three_timeline: 'Dec 2021 - Present',
     job_three_description: '\
     <li>Developing and maintaining quite complex chrome extension (Callings features) - Javascript, React, Redux, Chrome API</li>\
